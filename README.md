@@ -1,4 +1,8 @@
 # python learn annotation
 #### process of walking
 
-+ 请求参数说明
++ 基础语法
++ 列表
++ 元祖
++ 集合
++ 字典
