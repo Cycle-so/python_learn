@@ -3,7 +3,7 @@
 # @Time : 2018/10/30 下午7:06 
 # @Author : Mr.Lu
 # @Site :  
-# @File : chpter_tunple.py 
+# @File : chapter_tuple.py
 # @Software: PyCharm
 # 创建元组
 tup = ()
