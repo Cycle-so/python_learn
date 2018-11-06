@@ -26,4 +26,36 @@ print(set1)
 set2.update([1, 2])
 print(set2)
 
-#
+# remove() discard() 删除元素，差异在于当元素不存在时，remove报错，discard()不报错
+re = set(("age", "name"))
+re.remove("age")
+print(re)
+re.discard("name")
+print(re)
+# 随机删除元素
+set2.pop()
+print(set2)
+# len()
+print(len(set2))
+# clear() 清除元素
+set2.clear()
+print(set2)
+# x in s 判断元素是否存在集合
+flag = {"name", "age"}
+if "age" in flag:
+    print(True)
+else:
+    print(False)
+# copy() 拷贝集合 difference 返回差集的新集合 difference_update在原有集合上移除交集元素，保留差集的旧集合
+# intersection 返回交集的新集合 intersection_update在原有集合上移除差集元素，保留并集的旧集合
+x = {"a", "b", "c"}
+y = {"c", "b", "e"}
+z = {"e", "g", "c"}
+result = x.intersection(y, z)
+print(result)
+
+# isdisjoint() 判断两个集合是否有相同元素，相同返回True; issubject()判断指定集合是否为该方法参数集合的子集。
+# issuperset()	判断该方法的参数集合是否为指定集合的子集
+# symmetric_difference()	返回两个集合中不重复的元素集合
+# symmetric_difference_update()	移除当前集合中在另外一个指定集合相同的元素，并将另外一个指定集合中不同的元素插入到当前集合中
+# union()	返回两个集合的并集
