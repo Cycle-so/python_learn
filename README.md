@@ -7,7 +7,7 @@
 + set     --->集合  
 + dictionary  --->字典  
 + series  --->斐波纳契数列
-+ nine    --->九九乘法表
++ homework    --->作业集
 + jduge   --->条件控制
 + cycle   --->循环语句
 + iterater  --->迭代器
