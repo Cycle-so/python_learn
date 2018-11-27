@@ -27,21 +27,21 @@ for i in range(1,10):
 # 用户信息crud系统
 user = []
 while True:
-    flag = input("请选择要进行的操作，1-新增，2-删除 ，3-查询 4-退出")
-    if flag == '1':
+    flag = int(input("请选择要进行的操作，1-新增，2-删除 ，3-查询 4-退出"))
+    if flag == 1:
         userId =input("请输入学号：")
         userName = input("请输入姓名：")
         direone = {'userId': userId, 'userName': userName}
         user.append(direone)
         print('新增成功')
-    elif flag == '2':
+    elif flag == 2:
         del_id = input("请输入需要删除的学生学号：")
         del_name = input("请输入需要删除的学生姓名：")
         direone = {'userId': del_id, 'userName': del_name}
         pos = user.index(direone)
         del user[pos]
         print('已删除')
-    elif flag == '3':
+    elif flag == 3:
         print(user)
     else:
         print('bye!')
