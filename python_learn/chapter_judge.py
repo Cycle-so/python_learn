@@ -6,7 +6,7 @@
 # @File    : chapter_judge.py
 # @Software: PyCharm
 """
-条件判断 if elif else  == >= <= != > <
+条件判断 judge if elif else  == >= <= != > <
 """
 flag = int(1)
 if flag == 1 :
